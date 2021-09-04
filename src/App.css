@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -18,8 +18,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +33,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.right-bubble{
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  background-color: white;
+  color: black;
+  justify-content: end;
+  align-self: end;
+  width: 70%;
+  margin-left:400px
+  
+  
+}
+
+.left-bubble{
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  background-color: rgb(218, 212, 212);
+  color: black;
+  width: 70%;
+ 
+ 
+ 
 }
